@@ -11,17 +11,26 @@
  */
 package hackerrank.helloworld;
 
+import java.util.Scanner;
+
 /**
  *
  * @author Randy
  */
 public class HackerrankHelloworld {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+    
+        
+    Scanner scan = new Scanner(System.in);
+    
+    String inputString = scan.nextLine();
+    scan.close();
+    
+    System.out.println("Hello World!");
+    System.out.println(inputString);
+    
+        
     }
     
 }
